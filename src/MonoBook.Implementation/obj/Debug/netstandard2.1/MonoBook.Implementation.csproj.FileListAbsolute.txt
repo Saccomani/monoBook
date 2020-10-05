@@ -1,0 +1,8 @@
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/bin/Debug/netstandard2.1/MonoBook.Implementation.deps.json
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/bin/Debug/netstandard2.1/MonoBook.Implementation.dll
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/bin/Debug/netstandard2.1/MonoBook.Implementation.pdb
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/obj/Debug/netstandard2.1/MonoBook.Implementation.AssemblyInfoInputs.cache
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/obj/Debug/netstandard2.1/MonoBook.Implementation.AssemblyInfo.cs
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/obj/Debug/netstandard2.1/MonoBook.Implementation.csproj.CoreCompileInputs.cache
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/obj/Debug/netstandard2.1/MonoBook.Implementation.dll
+/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/obj/Debug/netstandard2.1/MonoBook.Implementation.pdb

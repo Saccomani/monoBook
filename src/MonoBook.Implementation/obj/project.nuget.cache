@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "RdMAsWKO6Xz/V7BbXSccuN0CGBF9YSV6vIGQBtIKtxmnVedsIdGvidcr3zmTgpVik3oqciptcReeyLjdsp2c+A==",
+  "success": true,
+  "projectFilePath": "/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MonoBook.Implementation.csproj",
+  "expectedPackageFiles": [
+    "/Users/u003088/.nuget/packages/monogame.framework.portable/3.7.1.189/monogame.framework.portable.3.7.1.189.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MonoGame.Framework.Portable 3.7.1.189' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MonoGame.Framework.Portable",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}
