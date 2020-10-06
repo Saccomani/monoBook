@@ -1,11 +1,18 @@
 ﻿<Properties StartupConfiguration="{671B15E9-C386-4775-A6BF-7A839D6EF9F8}|Default">
   <MonoDevelop.Ide.ItemProperties.Targets.MonoBook.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7DF7E57D-00FD-4BB5-9122-77DF5964B1AB" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/MonoBook.Implementation/MainBook.cs">
+    <Files>
+      <File FileName="src/MonoBook.Implementation/MainBook.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MonoBook" expanded="True">
-            <Node name="New Folder" selected="True" />
+            <Node name="Targets" expanded="True" selected="True">
+              <Node name="Monobook.Mac" expanded="True">
+                <Node name="Packages" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -17,7 +24,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/u003088/Projects/MonoBook/src/Monobook.Mac/AppDelegate.cs" relfile="src/Monobook.Mac/AppDelegate.cs" line="21" column="1" />
-      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="33" column="1" />
+      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

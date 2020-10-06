@@ -7,4 +7,10 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.Portable" Version="3.7.1.189" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sprites\" />
+    <Folder Include="Animations\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Assets\" />
+  </ItemGroup>
 </Project>
