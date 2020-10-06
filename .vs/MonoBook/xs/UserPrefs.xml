@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{A5FD7372-CA9C-4DD8-8A32-2D740A64658A}|Default">
-  <MonoDevelop.Ide.ItemProperties.MonoBook.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D5B42AEF-22FC-4FAC-8F9D-D8E35F7407AA" />
+﻿<Properties StartupConfiguration="{AA34D9A3-D171-4611-9C7F-AE037876F88F}|Default">
+  <MonoDevelop.Ide.ItemProperties.MonoBook.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7DF7E57D-00FD-4BB5-9122-77DF5964B1AB" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,13 +9,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MonoBook.Droid PreferredExecutionTarget="Android.nexus_5_q_10_0_-_api_29" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="33" column="1" />
-      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="38" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

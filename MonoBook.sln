@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoBook.iOS", "src\MonoBoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoBook.Implementation", "src\MonoBook.Implementation\MonoBook.Implementation.csproj", "{B7BA6776-C7AB-44BA-AFEA-B154A2E77253}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoBook.Droid", "src\MonoBook.Droid\MonoBook.Droid.csproj", "{AA34D9A3-D171-4611-9C7F-AE037876F88F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{B7BA6776-C7AB-44BA-AFEA-B154A2E77253}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{B7BA6776-C7AB-44BA-AFEA-B154A2E77253}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{B7BA6776-C7AB-44BA-AFEA-B154A2E77253}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Release|iPhone.Build.0 = Release|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AA34D9A3-D171-4611-9C7F-AE037876F88F}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
