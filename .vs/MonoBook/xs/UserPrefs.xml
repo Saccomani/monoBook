@@ -1,19 +1,25 @@
-﻿<Properties StartupConfiguration="{AA34D9A3-D171-4611-9C7F-AE037876F88F}|Default">
-  <MonoDevelop.Ide.ItemProperties.MonoBook.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7DF7E57D-00FD-4BB5-9122-77DF5964B1AB" />
+﻿<Properties StartupConfiguration="{671B15E9-C386-4775-A6BF-7A839D6EF9F8}|Default">
+  <MonoDevelop.Ide.ItemProperties.Targets.MonoBook.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7DF7E57D-00FD-4BB5-9122-77DF5964B1AB" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MonoBook" expanded="True" selected="True" />
+          <Node name="MonoBook" expanded="True">
+            <Node name="New Folder" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.MonoBook.Droid PreferredExecutionTarget="Android.nexus_5_q_10_0_-_api_29" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Targets.Monobook.Mac PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/Monobook.Mac/AppDelegate.cs" relfile="src/Monobook.Mac/AppDelegate.cs" line="21" column="1" />
+      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Targets.MonoBook.Droid PreferredExecutionTarget="Android.nexus_5_q_10_0_-_api_29" />
 </Properties>
