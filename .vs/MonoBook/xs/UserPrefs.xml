@@ -1,19 +1,30 @@
-﻿<Properties StartupConfiguration="{671B15E9-C386-4775-A6BF-7A839D6EF9F8}|Default">
+﻿<Properties StartupConfiguration="{AA34D9A3-D171-4611-9C7F-AE037876F88F}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.Targets.MonoBook.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7DF7E57D-00FD-4BB5-9122-77DF5964B1AB" />
   <MonoDevelop.Ide.Workbench ActiveDocument="src/MonoBook.Implementation/MainBook.cs">
     <Files>
-      <File FileName="src/MonoBook.Implementation/MainBook.cs" Line="1" Column="1" />
+      <File FileName="src/MonoBook.Implementation/Views/HeaderView.cs" Line="1" Column="1" />
+      <File FileName="src/MonoBook.Implementation/MainBook.cs" Line="30" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MonoBook" expanded="True">
-            <Node name="Targets" expanded="True" selected="True">
-              <Node name="Monobook.Mac" expanded="True">
-                <Node name="Packages" expanded="True" />
+            <Node name="Targets" expanded="True">
+              <Node name="MonoBook.Droid" expanded="True">
+                <Node name="Assets" expanded="True" />
               </Node>
             </Node>
+            <Node name="MonoBook.Implementation" expanded="True">
+              <Node name="Views" expanded="True" />
+              <Node name="MainBook.cs" selected="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>type.Module.Name.Replace(".dll","")</Value>
+          <Value>$"CONTADOR : {c}"</Value>
         </State>
       </Pad>
     </Pads>
@@ -23,8 +34,8 @@
   <MonoDevelop.Ide.ItemProperties.Targets.Monobook.Mac PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/Monobook.Mac/AppDelegate.cs" relfile="src/Monobook.Mac/AppDelegate.cs" line="21" column="1" />
-      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="31" column="1" />
+      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/Monobook.Mac/AppDelegate.cs" relfile="src/Monobook.Mac/AppDelegate.cs" line="22" column="1" />
+      <Breakpoint file="/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MainBook.cs" relfile="src/MonoBook.Implementation/MainBook.cs" line="30" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
