@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.Portable" Version="3.7.1.189" />
+    <PackageReference Include="MonoGame.Extended" Version="3.8.0" />
+    <PackageReference Include="MonoGame.Extended.Graphics" Version="3.8.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sprites\" />
@@ -16,5 +18,11 @@
     <Folder Include="Enum\" />
     <Folder Include="Views\" />
     <Folder Include="Contents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Helpers\ScalingViewportAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Helpers\ScalingViewportAdapter.cs" />
   </ItemGroup>
 </Project>

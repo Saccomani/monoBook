@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RdMAsWKO6Xz/V7BbXSccuN0CGBF9YSV6vIGQBtIKtxmnVedsIdGvidcr3zmTgpVik3oqciptcReeyLjdsp2c+A==",
+  "dgSpecHash": "Rujwxye17xidXvrnMkfzWMacPxSOx9Y9QPChbPFrlGEsqy46IAHDay3vnpPnv5gqTHqYAP31RpvfuZJc8wpdyg==",
   "success": true,
   "projectFilePath": "/Users/u003088/Projects/MonoBook/src/MonoBook.Implementation/MonoBook.Implementation.csproj",
   "expectedPackageFiles": [
-    "/Users/u003088/.nuget/packages/monogame.framework.portable/3.7.1.189/monogame.framework.portable.3.7.1.189.nupkg.sha512"
+    "/Users/u003088/.nuget/packages/monogame.extended/3.8.0/monogame.extended.3.8.0.nupkg.sha512",
+    "/Users/u003088/.nuget/packages/monogame.extended.graphics/3.8.0/monogame.extended.graphics.3.8.0.nupkg.sha512",
+    "/Users/u003088/.nuget/packages/monogame.framework.portable/3.7.1.189/monogame.framework.portable.3.7.1.189.nupkg.sha512",
+    "/Users/u003088/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": [
     {

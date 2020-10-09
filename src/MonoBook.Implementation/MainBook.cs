@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using MonoBook.Implementation.Enum;
 using MonoBook.Implementation.Views;
+using MonoGame.Extended.ViewportAdapters;
 
 namespace MonoBook.Implementation
 {
@@ -15,10 +16,24 @@ namespace MonoBook.Implementation
 		GraphicsDeviceManager graphics;
 
 		HeaderView _headerView;
-        public MainBook()
+
+		ScalingViewportAdapter _viewportAdapter;
+
+		public MainBook()
         {
 			graphics = new GraphicsDeviceManager(this);
 			graphics.IsFullScreen = true;
+
+			graphics.PreferredBackBufferWidth = 800;
+			graphics.PreferredBackBufferHeight = 480;
+
+			graphics.PreparingDeviceSettings += (sender, e) =>
+			{
+				e.GraphicsDeviceInformation.PresentationParameters.PresentationInterval = PresentInterval.Two;
+			};
+
+
+
 		}
 		protected override void Initialize()
 		{
@@ -27,9 +42,14 @@ namespace MonoBook.Implementation
 
 		protected override void LoadContent()
 		{
-			var font = Content.Load<SpriteFont>("Header");
+		
+		
+			_viewportAdapter = new ScalingViewportAdapter(this.GraphicsDevice, 800, 480);
 
-			_headerView = new HeaderView(graphics, font);
+			_headerView = new HeaderView(graphics, this, _viewportAdapter);
+
+
+
 		}
 		protected override void Update(GameTime gameTime)
 		{
@@ -44,7 +64,9 @@ namespace MonoBook.Implementation
 
 			base.Draw(gameTime);
 
+			var ma = _viewportAdapter.GetScaleMatrix();
 
+		
 			GraphicsDevice.Clear(bookBackGroundColor);
 
 		
@@ -67,7 +89,7 @@ namespace MonoBook.Implementation
 
 			_headerView.Draw(gameTime);
 
-
+		
 		}
 	}
 }
